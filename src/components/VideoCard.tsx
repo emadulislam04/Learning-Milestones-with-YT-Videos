@@ -20,8 +20,7 @@ const VideoCard: React.FC<VideoCardProps> = ({
 
       
       <div className="bg-gray-700 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 group">
-        <select name="" id="">
-        </select>
+        
         <div className="aspect-video relative overflow-hidden">
           <img 
             src={video.thumbnailUrl} 

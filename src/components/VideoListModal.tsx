@@ -30,10 +30,6 @@ const VideoListModal: React.FC<VideoListModalProps> = ({
         <div className="flex justify-between items-center p-5 border-b border-gray-700">
           <div>
             <h2 className="text-xl font-bold text-white mb-2">{category.name} Videos</h2>
-            <select className='form-control'>
-              <option value="">Watched</option>
-              <option value="">UnWatched</option>
-            </select>
             <div className="text-sm text-gray-400">
               {watchedVideos} of {category.videos.length} videos watched
             </div>
